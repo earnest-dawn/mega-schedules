@@ -1,0 +1,27 @@
+:root {
+--col1:#7b007b;
+--col2:#ffe3e8;
+--col3:#ffd700;
+--col4:#b36ab3;
+--col5:#282727;
+}
+/* header css */
+#home {
+    background-color: var(--col5);
+    color: var(--col4);
+}
+#titles {
+padding: 30px;
+}
+#title{
+    margin: 0px;
+}
+
+#subTitle {
+margin: 0px;
+
+}
+
+#megaLogo {
+    width: 100px;
+}

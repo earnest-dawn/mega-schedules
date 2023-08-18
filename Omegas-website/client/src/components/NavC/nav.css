@@ -1,0 +1,12 @@
+:root {
+--col1:#7b007b;
+--col2:#ffe3e8;
+--col3:#ffd700;
+--col4:#b36ab3;
+--col5:#282727;
+}
+
+#nav {
+    background-color: var(--col5);
+    border-bottom: 5px ridge var(--col3);
+}
