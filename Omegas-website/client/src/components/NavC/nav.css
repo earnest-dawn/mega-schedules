@@ -1,12 +1,40 @@
 :root {
 --col1:#7b007b;
 --col2:#ffe3e8;
---col3:#ffd700;
+--col3:#ffe96b;
 --col4:#b36ab3;
 --col5:#282727;
+--col6: blue ;
+--col7: red ;
+--col8: #3d0f39;
+--col9: rgb(159, 175, 255);
 }
 
 #nav {
+        margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
     background-color: var(--col5);
     border-bottom: 5px ridge var(--col3);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#megaLogo {
+    /* display: flex;
+    justify-content: flex-start; */
+    width: 150px;
+    margin: 20px;
+}
+
+#links {
+    display: flex;
+align-items: center;
+margin: 5px;
+}
+
+#links li {
+margin: 5px;
 }

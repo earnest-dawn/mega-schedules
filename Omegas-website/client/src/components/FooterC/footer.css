@@ -1,11 +1,15 @@
 :root {
 --col1:#7b007b;
 --col2:#ffe3e8;
---col3:#ffd700;
+--col3:#ffe96b;
 --col4:#b36ab3;
 --col5:#282727;
+--col6: blue ;
+--col7: red ;
+--col8: #3d0f39;
+--col9: rgb(159, 175, 255);
 }
-
 #footer {
-    background-color: var(--col4);
+    background-color: var(--col5);
+    color: var(--col3);
 }

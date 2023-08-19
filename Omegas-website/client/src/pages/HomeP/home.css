@@ -1,20 +1,22 @@
 :root {
 --col1:#7b007b;
 --col2:#ffe3e8;
---col3:#ffd700;
+--col3:#ffe96b;
 --col4:#b36ab3;
 --col5:#282727;
+--col6: blue ;
+--col7: red ;
+--col8: #3d0f39;
+--col9: rgb(159, 175, 255);
 }
 /* header css */
 #home {
-    background-color: var(--col5);
+    background-color: var(--col8);
     color: var(--col4);
 }
-#titles {
+
+#title {
 padding: 30px;
-}
-#title{
-    margin: 0px;
 }
 
 #subTitle {
@@ -22,6 +24,35 @@ margin: 0px;
 
 }
 
-#megaLogo {
-    width: 100px;
+h1 {
+    color: var(--col9);
+    border: 1px solid var(--col3);
+    border-radius: 10px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid var(--col3);
+    color: var(--col3);
+}
+
+.descriptions {
+    border: 1px solid var(--col7) ;
+    border-radius: 10px;
+    color: var(--col9);
+}
+
+
+#link1 {
+  margin: 10px;  
+
+}
+
+#link2 {
+  margin: 10px;  
+}
+
+.images {
+    width: 300px;
 }
