@@ -38,9 +38,13 @@ h1 {
 }
 
 .descriptions {
+            display: flex;
+        display: inline-block;
+
     border: 1px solid var(--col7) ;
     border-radius: 10px;
     color: var(--col9);
+    width: 400px;
 }
 
 
@@ -50,9 +54,23 @@ h1 {
 }
 
 #link2 {
+    display: flex;
+    display: inline-block;
+    align-items: center;
   margin: 10px;  
 }
 
 .images {
     width: 300px;
+}
+#aboutInfo{
+        display: flex;
+        display: inline-block;
+    justify-content: center;
+
+
+}
+
+#serviceInfo {
+
 }
